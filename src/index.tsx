@@ -3,7 +3,7 @@ import 'dotenv/config';
 import { render } from '@react-email/render';
 import nodemailer, { type TransportOptions } from 'nodemailer';
 import * as React from 'react';
-import { AirbnbReviewEmail } from './email';
+import { AirbnbReviewEmail } from './templates/airbnb-review';
 
 const transporter = nodemailer.createTransport({
   host: process.env.SMTP_HOST,

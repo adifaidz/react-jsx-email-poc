@@ -8,7 +8,7 @@ A basic POC of sending email using nodemailer  with React/JSX templating + react
 - A local server to view those templates in browser via react-email
 - Better overall experience in building emails
 
-# How to run ?
+# Sending the email
 
 ```bash
 
@@ -30,6 +30,22 @@ node dist/index.js
 ```
 
 If you setup correctly, you should be able to see email sent to your smtp server, in this case, mailtrap
+
+# Other commands
+
+```bash
+# Running this command
+# will spun up a server.
+# You can preview your email templates there
+# default to locahost:3000
+pnpm email:preview
+
+# Running this command will export the templates
+pnpm email:export
+
+# More info here: https://react.email/docs/cli
+```
+
 
 
 # References
